@@ -217,7 +217,7 @@ body {
 #gameBoard {
     border-radius: 0px;
     box-sizing: content-box;
-    border: var(--gameBoardBorderWidth) solid #b81823;
+    border: none;
     box-shadow: inset calc(var(--gameBoardBorderWidth)/-3) calc(var(--gameBoardBorderWidth)/3) calc(var(--gameBoardBorderWidth)) black;
     background-color: #b6bfb2ff;
     background-image: url(assets/background.svg);
