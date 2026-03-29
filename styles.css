@@ -106,7 +106,6 @@ body {
     /* УБИРАЕМ фон отсюда */
     background: none;
     border-radius: 20px;   /* ← вот это вернули */
-    overflow: hidden; 
 }
 
 .game-container::after {
@@ -245,7 +244,7 @@ body {
     position: relative;
     left: 0;
 
-    transform: translateX(3px) scale(1.02);
+    transform: translateX(10px) scale(1.04);
 }
 
 
