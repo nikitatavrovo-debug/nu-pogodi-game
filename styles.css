@@ -105,6 +105,8 @@ body {
 
     /* УБИРАЕМ фон отсюда */
     background: none;
+    border-radius: 20px;   /* ← вот это вернули */
+    overflow: hidden; 
 }
 
 .game-container::after {
@@ -117,6 +119,7 @@ body {
 
     pointer-events: none;
     z-index: 5;
+    border-radius: 20px;
 }
 
 .start-btns-box {
@@ -242,7 +245,7 @@ body {
     position: relative;
     left: 0;
 
-    transform: translateX(3px);
+    transform: translateX(3px) scale(1.02);
 }
 
 
