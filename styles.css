@@ -144,6 +144,7 @@ body {
     outline-color: #ae1921;
     outline-style: solid;
     outline-width: calc(var(--startBtnWidth)/9);
+    z-index: 20;
 }
 
 .start-btn:hover {
