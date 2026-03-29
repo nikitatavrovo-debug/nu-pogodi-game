@@ -227,18 +227,22 @@ body {
 
 #gameBoard {
     z-index: 1;
-    border-radius: 0px;
+    border-radius: 12px;
     box-sizing: border-box;
     border: none;
-    box-shadow: inset calc(var(--gameBoardBorderWidth)/-3) calc(var(--gameBoardBorderWidth)/3) calc(var(--gameBoardBorderWidth)) black;
+
     background-color: #b6bfb2ff;
     background-image: url(assets/background.svg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    width: var(--gameBoardWidth);
-    height: var(--gameBoardHeight);
+    background-size: cover;
+
+    width: calc(var(--gameBoardWidth) + 4px);
+    height: calc(var(--gameBoardHeight) + 4px);
+
     position: relative;
     left: 0;
+
+    transform: translateX(3px);
 }
 
 
