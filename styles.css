@@ -216,7 +216,7 @@ body {
 
 #gameBoard {
     border-radius: 0px;
-    box-sizing: content-box;
+    box-sizing: border-box;
     border: none;
     box-shadow: inset calc(var(--gameBoardBorderWidth)/-3) calc(var(--gameBoardBorderWidth)/3) calc(var(--gameBoardBorderWidth)) black;
     background-color: #b6bfb2ff;
@@ -226,7 +226,7 @@ body {
     width: var(--gameBoardWidth);
     height: var(--gameBoardHeight);
     position: relative;
-    left: 0.2%;
+    left: 0;
 }
 
 
