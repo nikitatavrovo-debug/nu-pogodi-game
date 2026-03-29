@@ -102,10 +102,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+
+    /* УБИРАЕМ фон отсюда */
+    background: none;
+}
+
+.game-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
     background-image: url(assets/game-pad-background-3.png);
-    background-color:rgb(0, 0, 0);
     background-size: cover;
+    background-repeat: no-repeat;
+
+    pointer-events: none;
+    z-index: 5;
 }
 
 .start-btns-box {
@@ -215,6 +226,7 @@ body {
 }
 
 #gameBoard {
+    z-index: 1;
     border-radius: 0px;
     box-sizing: border-box;
     border: none;
